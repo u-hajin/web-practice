@@ -6,37 +6,56 @@
   <style>
     h1{
       text-align: center;
+      border-bottom: 2px solid gray;
+      margin: 0;
+      padding: 35px;
+      padding-top: 20px;
     }
     a, li{
       color: #9332D8;
       text-decoration: none;
     }
-    h3{
+    h4{
       color: #15779B;
     }
-    ul{
-      font-size: 20px;
+    #category{
+      border-right: 1px solid gray;
+      width: 175px;
+      margin: 0;
+      padding: 10px;
+      padding-top: 0;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 220px 1fr;
     }
   </style>
 </head>
 <body>
-  <h1><a href="index.html" style="color: #E15F61">Season Music</a></h1>
-  <h3>특정 기간에 즐겨들었던 노래 정리</h3>
-  <ul>
-    <li><a href="2020.html" title="Back to 2020!">2020</a></li>
-    <li><a href="2019.html" title="Back to 2020!">2019</a></li>
-    <li><a href="2018.html" title="Back to 2020!">2018</a></li>
-  </ul>
-  <h3>Special Category</h3>
-  <ul>
-    <li><a href="glee.html">Glee</a></li>
-  </ul>
-  <a href="https://www.instagram.com/troyesivan/?hl=ko" target="_blank" title="Troye Sivan's instagram"><img src="troye.jpg" width="250"></a>
-  <a href="https://www.instagram.com/lauvsongs/?hl=ko" target="_blank" title="lauv's instagram"><img src="lauv.jpg" width="265"></a>
-  <a href="https://www.instagram.com/annemarie/?hl=ko" target="_blank" title="Anne Marie's instagram"><img src="anne.jpg" width="238"></a>
-  <a href="https://www.instagram.com/postmalone/?hl=ko" target="_blank" title="Post Malone's instagram"><img src="post.jpg" width="355"></a>
-  <a href="https://www.instagram.com/beneemusic/?hl=ko" target="_blank" title="Benee's instagram">  <img src="benee.jpg" width="397"></a>
-
-  <p>위 이미지들의 출처는 모두 해당 인물의 인스타그램입니다.</p>
+  <h1><a href="index.html">Season Music</a></h1>
+  <div id="grid">
+    <div id = "category">
+      <h4>즐겨들었던 노래 정리</h4>
+      <ul>
+        <li><a href="2020.html" title="Back to 2020!">2020</a></li>
+        <li><a href="2019.html" title="Back to 2020!">2019</a></li>
+        <li><a href="2018.html" title="Back to 2020!">2018</a></li>
+        <li>추후 업데이트</li>
+      </ul>
+      <h4>Special Category</h4>
+      <ul>
+        <li><a href="glee.html">Glee</a></li>
+        <li>추후 업데이트</li>
+      </ul>
+    </div>
+    <div id="content">
+      <p><a href="https://www.instagram.com/troyesivan/?hl=ko" target="_blank" title="Troye Sivan's instagram"><img src="troye.jpg" width="250"></a>
+      <a href="https://www.instagram.com/lauvsongs/?hl=ko" target="_blank" title="lauv's instagram"><img src="lauv.jpg" width="265"></a>
+      <a href="https://www.instagram.com/annemarie/?hl=ko" target="_blank" title="Anne Marie's instagram"><img src="anne.jpg" width="238"></a></p>
+      <p><a href="https://www.instagram.com/postmalone/?hl=ko" target="_blank" title="Post Malone's instagram"><img src="post.jpg" width="355"></a>
+      <a href="https://www.instagram.com/beneemusic/?hl=ko" target="_blank" title="Benee's instagram">  <img src="benee.jpg" width="397"></a></p>
+      <p>위 이미지들의 출처는 모두 해당 인물의 인스타그램입니다.</p>
+    </div>
+  </div>
 </body>
 <html>

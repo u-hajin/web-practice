@@ -6,18 +6,52 @@
   <style>
     h1{
       text-align: center;
+      border-bottom: 2px solid gray;
+      margin: 0;
+      padding: 35px;
+      padding-top: 8px;
     }
-    a{
+    a, li{
       color: #9332D8;
       text-decoration: none;
     }
-    h3{
+    h4{
       color: #15779B;
+    }
+    #category{
+      border-right: 1px solid gray;
+      width: 175px;
+      margin: 0;
+      padding: 10px;
+      padding-top: 0;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 220px 1fr;
     }
   </style>
 </head>
 <body>
-  <a href="index.html" style="color: black">← Back to Mainpage</a>
+  <a href="index.html">← Back to Mainpage</a>
   <h1><a href="2018.html">2018 공사 중!</a></h1>
+  <div id="grid">
+    <div id = "category">
+      <h4>즐겨들었던 노래 정리</h4>
+      <ul>
+        <li><a href="2020.html" title="Back to 2020!">2020</a></li>
+        <li><a href="2019.html" title="Back to 2020!">2019</a></li>
+        <li><a href="2018.html" title="Back to 2020!">2018</a></li>
+        <li>추후 업데이트</li>
+      </ul>
+      <h4>Special Category</h4>
+      <ul>
+        <li><a href="glee.html">Glee</a></li>
+        <li>추후 업데이트</li>
+      </ul>
+    </div>
+    <div id="content">
+      <!-- 내용추가 -->
+    </div>
+  </div>
 </body>
 <html>

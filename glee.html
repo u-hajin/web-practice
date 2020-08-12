@@ -6,8 +6,12 @@
   <style>
     h1{
       text-align: center;
+      border-bottom: 2px solid gray;
+      margin: 0;
+      padding: 35px;
+      padding-top: 8px;
     }
-    a, h4{
+    a, li{
       text-decoration: none;
       color: #9332D8;
     }
@@ -15,30 +19,61 @@
       color: #15779B;
       font-size: 20px;
     }
+    h4{
+      color: #15779B;
+    }
+    #category{
+      border-right: 1px solid gray;
+      width: 175px;
+      margin: 0;
+      padding: 10px;
+      padding-top: 0;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 220px 1fr;
+    }
   </style>
 </head>
 <body>
-  <a href="index.html" style="color: black">← Back to Mainpage</a>
+  <a href="index.html">← Back to Mainpage</a>
   <h1><a href="glee.html">Favourite Glee Performance</a></h1>
-  <h4>Glee에서 제일 좋았던 공연, 노래들을 모아봤다.</h4>
-  <details>
-    <summary><strong>Season 1</strong></summary>
-    <p>부동의 1위</p>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/JseWhrUz9TY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-  </details>
-  <details>
-    <summary><strong>Season 2</strong></summary>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/XhiNTcPPIhU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-  </details>
-  <details>
-    <summary><strong>Season 3</strong></summary>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/OU7q6he_QxE"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picturein-picture" allowfullscreen></iframe></p>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/UUjOzE49UOQ"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picturein-picture" allowfullscreen></iframe></p>
-  </details>
-  <details>
-    <summary><strong>Season 4</strong></summary>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/2o1W_bvpE8U"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picturein-picture" allowfullscreen></iframe></p>
-  </details>
-
+  <div id="grid">
+    <div id = "category">
+      <h4>즐겨들었던 노래 정리</h4>
+      <ul>
+        <li><a href="2020.html" title="Back to 2020!">2020</a></li>
+        <li><a href="2019.html" title="Back to 2020!">2019</a></li>
+        <li><a href="2018.html" title="Back to 2020!">2018</a></li>
+        <li>추후 업데이트</li>
+      </ul>
+      <h4>Special Category</h4>
+      <ul>
+        <li><a href="glee.html">Glee</a></li>
+        <li>추후 업데이트</li>
+      </ul>
+    </div>
+    <div id="content">
+      <h4>Glee에서 제일 좋았던 공연, 노래들을 모아봤다.</h4>
+      <details>
+        <summary><strong>Season 1</strong></summary>
+        <p>부동의 1위</p>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/JseWhrUz9TY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+      </details>
+      <details>
+        <summary><strong>Season 2</strong></summary>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/XhiNTcPPIhU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+      </details>
+      <details>
+        <summary><strong>Season 3</strong></summary>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/OU7q6he_QxE"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picturein-picture" allowfullscreen></iframe></p>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/UUjOzE49UOQ"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picturein-picture" allowfullscreen></iframe></p>
+      </details>
+      <details>
+        <summary><strong>Season 4</strong></summary>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/2o1W_bvpE8U"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picturein-picture" allowfullscreen></iframe></p>
+      </details>
+    </div>
+  </div>
 </body>
 <html>
