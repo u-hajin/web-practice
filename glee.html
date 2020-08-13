@@ -12,8 +12,8 @@
       padding-top: 8px;
     }
     a, li{
-      text-decoration: none;
       color: #9332D8;
+      text-decoration: none;
     }
     summary{
       color: #15779B;
@@ -33,8 +33,28 @@
       display: grid;
       grid-template-columns: 220px 1fr;
     }
+    #content{
+      padding-top: 10px;
+    }
     #content summary{
       font-size: 18px;
+    }
+    #category ul{
+      padding-left: 20px;
+    }
+    #category li{
+      padding: 2px;
+    }
+    #category h4{
+      margin-bottom: 0;
+    }
+    @media(max-width: 830px){
+      #grid{
+        display: block;
+      }
+      #category{
+        border-right: none;
+      }
     }
   </style>
 </head>
@@ -53,11 +73,15 @@
       <h4>Special Category</h4>
       <ul>
         <li><a href="glee.html">Glee</a></li>
+        <li><a href="beginagain.html">Begin Again</a></li>
+        <li><a href="singstreet.html">Sing Street</a></li>
+        <li><a href="chicago.html">Chicago</a></li>
+        <li><a href="live.html">Live Performance</a></li>
         <li>추후 업데이트</li>
       </ul>
     </div>
     <div id="content">
-      <h4>Glee에서 제일 좋았던 공연, 노래들을 모아봤다.</h4>
+      <h4>Glee에서 제일 좋았던 공연, 노래들</h4>
       <details>
         <summary>Season 1</summary>
         <p>부동의 1위</p>
