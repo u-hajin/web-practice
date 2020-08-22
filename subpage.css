@@ -1,20 +1,17 @@
 h1{
   text-align: center;
-  border-bottom: 2px solid gray;
+  border-bottom: 1px solid gray;
   margin: 0;
   padding: 35px;
   padding-top: 8px;
+  font-family: 'Shadows Into Light', cursive;
 }
 a, li{
-  color: #9332D8;
+  color: SteelBlue;
   text-decoration: none;
 }
-summary{
-  color: #15779B;
-  font-size: 20px;
-}
 h4{
-  color: #15779B;
+  color: MediumOrchid;
 }
 #category{
   border-right: 1px solid gray;
@@ -22,6 +19,8 @@ h4{
   margin: 0;
   padding: 10px;
   padding-top: 0;
+  font-family: 'Sriracha', cursive;
+  background-color: Thistle;
 }
 #grid{
   display: grid;
@@ -31,16 +30,21 @@ h4{
   padding-top: 10px;
 }
 #content summary{
-  font-size: 18px;
+  color: MediumOrchid;
+  font-size: 1.3rem;
 }
 #category ul{
-  padding-left: 20px;
+  padding-left: 5px;
 }
 #category li{
   padding: 2px;
+  list-style: none;
 }
 #category h4{
   margin-bottom: 0;
+}
+#category a:hover{
+  color: Gold;
 }
 @media(max-width: 830px){
   #grid{
