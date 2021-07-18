@@ -27,4 +27,4 @@
 
 ### 참고
 - 컴퓨터에서 chrome을 이용해 html 파일을 열었을 때 유튜브 영상이 재생되지 않습니다. 아직 해결 방법을 찾지 못했습니다. github에서 제공하는 호스팅을 통해 만들어진 url에 접속하면 정상으로 작동합니다.
-- https://usuyn.github.io/webprac/
+- https://usuyn.github.io/web-practice/season-music/index.html
