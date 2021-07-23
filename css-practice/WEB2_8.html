@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>box model</title>
+    <style>
+      /* 화면 전체를 쓰는 태그 : block level element */
+      h1 {
+        border-width: 5px; /* 테두리 두께 */
+        border-color: red; /* 테두리 색 */
+        border-style: solid; /* 테두리 스타일, solid는 단선 */
+        /* display: inline; */ /* inline element가 된다. */
+      }
+      /* 자기 자신의 콘텐츠만큼의 크기를 갖는 태그 : inline element */
+      a {
+        border-width: 5px;
+        border-color: red;
+        border-style: solid;
+        /* display: block; */ /* inline element가 된다. */
+      }
+      h1, a { /* ,를 이용해 한 번에 선택자 선언 */
+        border: 5px solid red; /* border- 중복을 제거, 순서는 중요 X */
+        padding: 20px; /* content와 border 사이 간격 */
+        margin: 20px; /* border 바깥 간격 */
+        width: 100px; /* 태그 크기가 변경된다. */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Protein</h1>
+    <h1>Protein</h1>
+    Most microorganisms and plants can biosynthesize all 20 standard amino acids, while animals (including humans) must obtain some of the amino acids from the <a href="https://en.wikipedia.org/wiki/Diet">diet</a>. The amino acids that an organism cannot synthesize on its own are referred to as essential amino acids. Key enzymes that synthesize certain amino acids are not present in animals—such as aspartokinase, which catalyses the first step in the synthesis of lysine, methionine, and threonine from aspartate. If amino acids are present in the environment, microorganisms can conserve energy by taking up the amino acids from their surroundings and downregulating their biosynthetic pathways.
+  </body>
+</html>
+<!-- h1 태그는 화면 전체를 쓴다. -->
+<!-- a 태그는 줄바꿈 되지 않고 다른 콘텐츠와 같은 라인에 존재 -->
+<!-- a 태그는 자기 콘텐츠만의 부피를 쓴다. -->
+<!-- display를 이용해 기본 속성을 바꿀 수 있다. -->
+<!-- display의 none 속성도 기억. 화면에서 사라진다. -->
+<!-- 페이지 우클릭 -> 검사 -->
