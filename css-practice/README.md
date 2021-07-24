@@ -18,4 +18,10 @@ box model을 이용한 디자인을 배웠습니다. border를 주어 페이지�
 
 <img src="https://user-images.githubusercontent.com/68963707/126785220-5f51295e-4dee-4c86-b31f-d9005460862d.png" width="500" height="300">
 
+### Practice of WEB2_10 - 2021.07.24
+grid에 대해 배우고 적용했습니다. 또 디자인 용도로 쓰이는 div, span 태그를 배웠습니다.
+
+<img src="https://user-images.githubusercontent.com/68963707/126872292-138dd5f2-f05f-46f0-b969-7156405833a4.png">
+
+
 
