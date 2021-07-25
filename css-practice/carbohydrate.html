@@ -11,20 +11,40 @@
     h1 {
       font-size: 45px;
       text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0;
+      padding: 20px;
     }
-    #active {
-      color: green;
+    #grid ul {
+      border-right: 1px solid gray;
+      width: 130px;
+      margin: 0;
+      padding: 20px;
+    }
+    body {
+      margin: 0;
+    }
+    #grid {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #article {
+      padding-left: 35px;
     }
   </style>
 </head>
 <body>
   <h1><a href="index.html">Nutrition</a></h1>
-  <ul>
-    <li><a href="carbohydrate.html" id="active">Carbohydrate</a></li>
-    <li><a href="protein.html">Protein</a></li>
-    <li><a href="fat.html">Fat</a></li>
-  </ul>
-  <h2><a href="https://en.wikipedia.org/wiki/Carbohydrate" target="_blank" title="Carbohydrate wikipedia">Carbohydrate</a></h2>
-  <p>Carbohydrates are central to nutrition and are found in a wide variety of natural and processed foods. Starch is a polysaccharide. It is abundant in cereals (wheat, maize, rice), potatoes, and processed food based on cereal flour, such as bread, pizza or pasta. Sugars appear in human diet mainly as table sugar (sucrose, extracted from sugarcane or sugar beets), lactose (abundant in milk), glucose and fructose, both of which occur naturally in honey, many fruits, and some vegetables. Table sugar, milk, or honey are often added to drinks and many prepared foods such as jam, biscuits and cakes.</p>
+  <div id="grid">
+    <ul>
+      <li><a href="carbohydrate.html">Carbohydrate</a></li>
+      <li><a href="protein.html">Protein</a></li>
+      <li><a href="fat.html">Fat</a></li>
+    </ul>
+    <div id="article">
+      <h2><a href="https://en.wikipedia.org/wiki/Carbohydrate" target="_blank" title="Carbohydrate wikipedia">Carbohydrate</a></h2>
+      <p>Carbohydrates are central to nutrition and are found in a wide variety of natural and processed foods. Starch is a polysaccharide. It is abundant in cereals (wheat, maize, rice), potatoes, and processed food based on cereal flour, such as bread, pizza or pasta. Sugars appear in human diet mainly as table sugar (sucrose, extracted from sugarcane or sugar beets), lactose (abundant in milk), glucose and fructose, both of which occur naturally in honey, many fruits, and some vegetables. Table sugar, milk, or honey are often added to drinks and many prepared foods such as jam, biscuits and cakes.</p>
+    </div>
+  </div>
 </body>
 </html>

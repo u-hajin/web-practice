@@ -11,23 +11,40 @@
     h1 {
       font-size: 45px;
       text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0;
+      padding: 20px;
     }
-    .visited {
-      color: gray;
+    #grid ul {
+      border-right: 1px solid gray;
+      width: 130px;
+      margin: 0;
+      padding: 20px;
     }
-    #active {
-      color: green;
+    body {
+      margin: 0;
+    }
+    #grid {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #article {
+      padding-left: 35px;
     }
   </style>
 </head>
 <body>
   <h1><a href="index.html">Nutrition</a></h1>
-  <ul>
-    <li><a href="carbohydrate.html" class="visited">Carbohydrate</a></li>
-    <li><a href="protein.html" class="visited" id="active">Protein</a></li>
-    <li><a href="fat.html">Fat</a></li>
-  </ul>
-  <h2><a href="https://en.wikipedia.org/wiki/Protein" target="_blank" title="Protein wikipedia">Protein</a></h2>
-  <p>Most microorganisms and plants can biosynthesize all 20 standard amino acids, while animals (including humans) must obtain some of the amino acids from the diet.[41] The amino acids that an organism cannot synthesize on its own are referred to as essential amino acids. Key enzymes that synthesize certain amino acids are not present in animals—such as aspartokinase, which catalyses the first step in the synthesis of lysine, methionine, and threonine from aspartate. If amino acids are present in the environment, microorganisms can conserve energy by taking up the amino acids from their surroundings and downregulating their biosynthetic pathways.</p>
+  <div id="grid">
+    <ul>
+      <li><a href="carbohydrate.html">Carbohydrate</a></li>
+      <li><a href="protein.html">Protein</a></li>
+      <li><a href="fat.html">Fat</a></li>
+    </ul>
+    <div id="article">
+      <h2><a href="https://en.wikipedia.org/wiki/Protein" target="_blank" title="Protein wikipedia">Protein</a></h2>
+      <p>Most microorganisms and plants can biosynthesize all 20 standard amino acids, while animals (including humans) must obtain some of the amino acids from the diet.[41] The amino acids that an organism cannot synthesize on its own are referred to as essential amino acids. Key enzymes that synthesize certain amino acids are not present in animals—such as aspartokinase, which catalyses the first step in the synthesis of lysine, methionine, and threonine from aspartate. If amino acids are present in the environment, microorganisms can conserve energy by taking up the amino acids from their surroundings and downregulating their biosynthetic pathways.</p>
+    </div>
+  </div>
 </body>
 </html>
