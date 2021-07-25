@@ -23,5 +23,10 @@ grid에 대해 배우고 적용했습니다. 또 디자인 용도로 쓰이는 d
 
 <img src="https://user-images.githubusercontent.com/68963707/126872292-138dd5f2-f05f-46f0-b969-7156405833a4.png">
 
+### Practice of WEB2_11 - 2021.07.25
+grid를 사용해 navigation과 article을 나란히 배치했습니다.
+
+<img src="https://user-images.githubusercontent.com/68963707/126903854-f5851708-c353-44a7-94c7-27af10eedb26.png" width="500" height="300">
+
 
 
