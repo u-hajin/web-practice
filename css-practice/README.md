@@ -28,5 +28,10 @@ grid를 사용해 navigation과 article을 나란히 배치했습니다.
 
 <img src="https://user-images.githubusercontent.com/68963707/126903854-f5851708-c353-44a7-94c7-27af10eedb26.png" width="500" height="300">
 
+### Practice of WEB2_12 - 2021.07.26
+반응형 디자인을 배웠습니다. media query를 이용해 화면이 800px보다 크면 div 태그를 안 보이게 했습니다.
 
+### Practice of WEB2_13 - 2021.07.27
+media query를 사용해 화면이 700px보다 작을 때 grid 구성이 아닌 block으로 전환되게 했습니다.
 
+<img src="https://user-images.githubusercontent.com/68963707/127014268-1d07e73f-dab6-4d5a-acab-ca4603d39450.png" width="500" height="600">
