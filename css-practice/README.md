@@ -35,3 +35,6 @@ grid를 사용해 navigation과 article을 나란히 배치했습니다.
 media query를 사용해 화면이 700px보다 작을 때 grid 구성이 아닌 block으로 전환되게 했습니다.
 
 <img src="https://user-images.githubusercontent.com/68963707/127014268-1d07e73f-dab6-4d5a-acab-ca4603d39450.png" width="500" height="600">
+
+### Practice of WEB2_14 - 2021.07.27
+style 태그를 없애고 css 파일을 생성, link 태그를 통해 모든 html 문서에 일괄적으로 적용되도록 했습니다.
