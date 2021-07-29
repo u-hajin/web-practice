@@ -38,3 +38,5 @@ media query를 사용해 화면이 700px보다 작을 때 grid 구성이 아닌 
 
 ### Practice of WEB2_14 - 2021.07.27
 style 태그를 없애고 css 파일을 생성, link 태그를 통해 모든 html 문서에 일괄적으로 적용되도록 했습니다.
+
+-완료-
