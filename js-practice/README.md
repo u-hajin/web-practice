@@ -22,3 +22,11 @@ night 클릭
 day 클릭
 
 <img src="https://user-images.githubusercontent.com/68963707/128193074-7177549e-796d-40ae-8a22-818a683f054c.png" width="600" height="auto">
+
+### Practice of JS_17 - 2021.08.05
+조건문을 사용해 2개의 버튼을 toggle로 변경했습니다.
+
+<img src="https://user-images.githubusercontent.com/68963707/128370858-55df6367-1f87-4d06-a6c5-5a565bb6fee9.png" width="600" height="auto">
+
+<img src="https://user-images.githubusercontent.com/68963707/128370971-17dbdf15-82b3-496b-886d-eae3b41c9617.png" width="600" height="auto">
+
