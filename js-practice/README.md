@@ -30,3 +30,8 @@ day 클릭
 
 <img src="https://user-images.githubusercontent.com/68963707/128370971-17dbdf15-82b3-496b-886d-eae3b41c9617.png" width="600" height="auto">
 
+### Practice of JS_18 - 2021.08.06
+document.querySelector('#night_day') -> this
+document.querySelector('body') -> target(변수)
+로 변경해 중복을 제거했습니다.
+
