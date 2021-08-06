@@ -3,32 +3,37 @@
 <head>
   <title>WEB - Nutrition</title>
   <meta charset="utf-utf-8">
+  <script>
+    function nightDayHandler(self){
+      var target = document.querySelector('body');
+      var links = document.querySelectorAll('a');
+
+      if(self.value === 'night'){
+        target.style.backgroundColor='black';
+        target.style.color='white';
+        self.value = 'day';
+        var i = 0;
+        while(i < links.length){
+          links[i].style.color = 'powderblue';
+          i++;
+        }
+      } else {
+        target.style.backgroundColor='white';
+        target.style.color='black';
+        self.value = 'night';
+        var i = 0;
+        while(i < links.length){
+          links[i].style.color = 'blue';
+          i++;
+        }
+      }
+    }
+  </script>
 </head>
 <body>
   <h1><a href="index.html">Nutrition</a></h1>
   <input type="button" value="night" onclick="
-    var target = document.querySelector('body');
-    var links = document.querySelectorAll('a');
-
-    if(this.value === 'night'){
-      target.style.backgroundColor='black';
-      target.style.color='white';
-      this.value = 'day';
-      var i = 0;
-      while(i < links.length){
-        links[i].style.color = 'powderblue';
-        i++;
-      }
-    } else {
-      target.style.backgroundColor='white';
-      target.style.color='black';
-      this.value = 'night';
-      var i = 0;
-      while(i < links.length){
-        links[i].style.color = 'blue';
-        i++;
-      }
-    }
+    nightDayHandler(this);
   ">
   <ul>
     <li><a href="WEB1_15_1.html">Carbohydrate</a></li>
