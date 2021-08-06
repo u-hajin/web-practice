@@ -44,3 +44,6 @@ document.querySelector('body') -> target(변수)
 
 ### Practice of JS_25,26,27 - 2021.08.07
 함수의 기본에 대해 배웠습니다.
+
+### Practice of JS_28 - 2021.08.07
+nightDayHandler 함수를 생성해 onclick event가 발생할 때 함수가 실행되도록 했습니다.
