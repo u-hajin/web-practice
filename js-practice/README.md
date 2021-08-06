@@ -35,3 +35,12 @@ document.querySelector('#night_day') -> this
 document.querySelector('body') -> target(변수)
 로 변경해 중복을 제거했습니다.
 
+### Practice of JS_23 - 2021.08.07
+배열과 반복문을 이용해 모든 a 태그의 폰트색을 버튼을 클릭함에 따라 바뀌게 했습니다.
+
+<img src="https://user-images.githubusercontent.com/68963707/128551510-4fda787e-9055-4443-bb98-9f62436b1972.png" width="600" height="auto">
+
+<img src="https://user-images.githubusercontent.com/68963707/128551572-578264d3-d02b-4c02-8a41-a81660bff871.png" width="600" height="auto">
+
+### Practice of JS_25,26,27 - 2021.08.07
+함수의 기본에 대해 배웠습니다.
