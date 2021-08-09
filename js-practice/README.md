@@ -50,3 +50,6 @@ nightDayHandler 함수를 생성해 onclick event가 발생할 때 함수가 실
 
 ### Practice of JS_29 - 2021.08.08
 객체를 배우기 전 중복되는 코드를 함수로 정리했습니다.
+
+### Practice of JS_30,31,32 - 2021.08.09
+객체에 대해 배웠습니다.
