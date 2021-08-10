@@ -53,3 +53,6 @@ nightDayHandler 함수를 생성해 onclick event가 발생할 때 함수가 실
 
 ### Practice of JS_30,31,32 - 2021.08.09
 객체에 대해 배웠습니다.
+
+### Practice of JS_33 - 2021.08.10
+Body, Links 객체를 생성하고 활용해 코드를 정리했습니다.
