@@ -56,3 +56,6 @@ nightDayHandler 함수를 생성해 onclick event가 발생할 때 함수가 실
 
 ### Practice of JS_33 - 2021.08.10
 Body, Links 객체를 생성하고 활용해 코드를 정리했습니다.
+
+### Practice of JS_34 - 2021.08.11
+colors.js 파일을 생성해 모든 페이지에 js 코드를 적용했습니다.
