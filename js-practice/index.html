@@ -3,41 +3,7 @@
 <head>
   <title>WEB - Nutrition</title>
   <meta charset="utf-utf-8">
-  <script>
-    var Body = {
-      setColor: function(color){
-        document.querySelector('body').style.color = color;
-      },
-      setBackgroundColor: function(color){
-        document.querySelector('body').style.backgroundColor = color;
-      }
-    }
-
-    var Links = {
-      setColor: function(color){
-        var links = document.querySelectorAll('a');
-        var i = 0;
-        while(i < links.length){
-          links[i].style.color = color;
-          i++;
-        }
-      }
-    }
-
-    function nightDayHandler(self){
-      if(self.value === 'night'){
-        Body.setBackgroundColor('black');
-        Body.setColor('white');
-        self.value = 'day';
-        Links.setColor('powderblue');
-      } else {
-        Body.setBackgroundColor('white');
-        Body.setColor('black');
-        self.value = 'night';
-        Links.setColor('blue');
-      }
-    }
-  </script>
+  <script src="colors.js"></script>
 </head>
 <body>
   <h1><a href="index.html">Nutrition</a></h1>
@@ -45,9 +11,9 @@
     nightDayHandler(this);
   ">
   <ul>
-    <li><a href="WEB1_15_1.html">Carbohydrate</a></li>
-    <li><a href="WEB1_15_2.html">Protein</a></li>
-    <li><a href="WEB1_15_3.html">Fat</a></li>
+    <li><a href="carbohydrate.html">Carbohydrate</a></li>
+    <li><a href="protein.html">Protein</a></li>
+    <li><a href="fat.html">Fat</a></li>
   </ul>
   <h2><a href="https://en.wikipedia.org/wiki/Nutrition" target="_blank" title="Nutrition wikipedia">Nutrition</a></h2>
   <p>the substances that you take into your body as food and the way that they <strong>influence your <u>health</u></strong>:</p>
