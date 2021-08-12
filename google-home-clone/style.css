@@ -29,3 +29,16 @@ header .profile-image {
     max-width: 400px; /* 화면 크기 400px되면 끌려나온다. */
     margin: auto;
 }
+
+.middle .search-box {
+    max-width: 580px; /* 화면 크기 작아지면 같이 작아지는 기능 구현 필요  */
+    margin: auto;
+}
+
+.middle .search-bar {
+    width: 575px;
+    height: 43px;
+    border-radius: 20px;
+    border: 1px solid rgb(225, 225, 226);
+   
+}
