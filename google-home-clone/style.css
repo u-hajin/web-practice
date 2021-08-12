@@ -42,3 +42,24 @@ header .profile-image {
     border: 1px solid rgb(225, 225, 226);
    
 }
+
+.middle .search-icon {
+    position: absolute;
+    margin: 13px 17px;
+    color: rgb(154,160,166);
+    font-size: 14px;
+}
+
+.middle .keyboard-icon {
+    position: absolute;
+    margin: 13px 505px;
+    font-size: 16px;
+    color: rgb(123,123,123);
+}
+
+.middle .microphone-icon {
+    position: absolute;
+    margin: 10px 545px;
+    font-size: 18px;
+    color: rgb(66,133,244);
+}
