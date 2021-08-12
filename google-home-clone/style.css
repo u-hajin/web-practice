@@ -18,3 +18,14 @@ header .profile-image {
     width: 35px;
     height: 35px;
 }
+
+.middle .logo-image {
+    width: 273px;
+    height: auto;
+    margin: 258px 65px 23px; /* logo-image, search-bar 사이 간격 23px */
+}
+
+.middle .google-logo {
+    max-width: 400px; /* 화면 크기 400px되면 끌려나온다. */
+    margin: auto;
+}
