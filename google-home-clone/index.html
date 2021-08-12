@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <title>Google</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- 오른쪽 상단 -->
     <header>
       <ul>
-        <li>Gamil</li>
+        <li>Gmail</li>
         <li>이미지</li>
-        <li class="app-icon"><i class="fas fa-th"></i></li>
-        <li class="profile-image"><img src="images/profile.jpg"></li>
+        <li><i class="fas fa-th"></i></li>
+        <li><img class="profile-image" src="images/profile.jpg"></li>
       </ul>  
     </header>
     <!-- 로고, 검색바, Google 검색, I'm Feeling Lukcy -->
-    <section class="middle">      
-      <img class="google-logo" src="images/logo.png">      
+    <section class="middle">
+      <div class="google-logo">
+        <img class="logo-image" src="images/logo.png">
+      </div>      
       <div class="search-box">
         <span class="search-icon"><i class="fas fa-search"></i></span>
         <span class="keyboard-icon"><i class="far fa-keyboard"></i></span>
@@ -31,18 +34,20 @@
     </section>
     <!-- 하단 국가, 약관, 설정 등 -->
     <footer>
-      <span class="country-info">대한민국</span>
-      <ul class="left-side">
-        <li>Google 정보</li>
-        <li>광고</li>
-        <li>비즈니스</li>
-        <li>검색의 원리</li>
-      </ul>
-      <ul class="right-side">
-        <li>개인정보처리방침</li>
-        <li>약관</li>
-        <li>설정</li>
-      </ul>
+      <div class="country-info">대한민국</div>
+      <div class="instruction">
+        <ul class="left-side">
+          <li>Google 정보</li>
+          <li>광고</li>
+          <li>비즈니스</li>
+          <li>검색의 원리</li>
+        </ul>
+        <ul class="right-side">
+          <li>개인정보처리방침</li>
+          <li>약관</li>
+          <li>설정</li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
