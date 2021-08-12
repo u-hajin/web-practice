@@ -85,3 +85,39 @@ header .profile-image {
 .additional-box a:hover {
     border: 1px solid rgb(225, 225, 226);
 }
+
+footer {
+    position: absolute; /* footer 하단 고정을 위해 */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(242,242,242);
+    color: rgb(138,138,138);
+    font-size: 15px;
+    height: 100px;
+    display: grid; /* 정확히 반반씩 사용하기 위해서 grid 사용 */
+    grid-template-rows: 1fr 1fr;
+}
+
+footer .instruction ul, li {
+    display: inline-block;
+    margin-right: 17px;
+}
+
+footer .country-info {
+    margin: 15px 35px;
+}
+
+footer .instruction {
+    border-top: 1px solid rgb(225, 225, 226);
+}
+
+footer .left-side {
+    position: absolute;
+    left: 0;
+}
+
+footer .right-side {
+    position: absolute;
+    right: 0;
+}
