@@ -5,12 +5,16 @@ body {
 header li {
     display: inline-block;
     margin: 8px;
+    margin-right: 20px;
+    font-size: 14px;
 }
 
 header ul {
     position: absolute;
     top: 0px;
     right: 0px;
+    margin: 0;
+    text-align: center;
 }
 
 header .profile-image {
@@ -99,7 +103,11 @@ footer {
     grid-template-rows: 1fr 1fr;
 }
 
-footer .instruction ul, li {
+footer .instruction ul {
+    display: inline-block;
+}
+
+footer .instruction li {
     display: inline-block;
     margin-right: 17px;
 }
