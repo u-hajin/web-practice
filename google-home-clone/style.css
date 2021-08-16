@@ -2,25 +2,58 @@ body {
     margin: 0;
 }
 
-header li {
-    display: inline-block;
-    margin: 8px;
-    margin-right: 20px;
-    font-size: 14px;
-}
-
 header ul {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
     margin: 0;
-    text-align: center;
 }
 
-header .profile-image {
+header li {
+    display: inline-block;
+}
+
+header .link {
+    margin-right: 15px;
+}
+
+header .link a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+header .link a:hover {
+    text-decoration: underline;
+}
+
+header .btn button {
+    border: 0;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+header .btn .google-app {
+    font-size: 18px;
+    color: rgb(95,99,104);
+    padding: 13px;
+}
+
+header .btn .profile-image {
     border-radius: 50%;
     width: 35px;
-    height: 35px;
+    padding: 3px;
+}
+
+header .btn .google-app:hover {
+    background-color: rgb(240,240,240);
+    border-radius: 50%;
+}
+
+header .profile-image:hover {
+    background-color: rgb(240,240,240);
+    border-radius: 50%;
 }
 
 .middle .logo-image {
