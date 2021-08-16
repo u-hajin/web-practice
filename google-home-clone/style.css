@@ -125,36 +125,43 @@ footer {
     left: 0;
     width: 100%;
     background-color: rgb(242,242,242);
-    color: rgb(138,138,138);
-    font-size: 15px;
     height: 100px;
-    display: grid; /* 정확히 반반씩 사용하기 위해서 grid 사용 */
+    display: grid; /* country-info, instruction 똑같은 비율로 나누기 위해 grid 사용 */
     grid-template-rows: 1fr 1fr;
 }
 
-footer .instruction ul {
-    display: inline-block;
-}
-
-footer .instruction li {
-    display: inline-block;
-    margin-right: 17px;
-}
-
 footer .country-info {
-    margin: 15px 35px;
+    margin: 15px 30px;
+    color: rgb(138,138,138);
+    font-size: 15px;
 }
 
 footer .instruction {
     border-top: 1px solid rgb(225, 225, 226);
 }
 
+footer .instruction li {
+    display: inline-block;
+    list-style: none;
+}
+
 footer .left-side {
     position: absolute;
-    left: 0;
+    left: 33px;
 }
 
 footer .right-side {
     position: absolute;
-    right: 0;
+    right: 10px;
+}
+
+footer .instruction a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: rgb(138,138,138);
+    font-size: 14px;
+}
+
+footer .instruction a:hover {
+    text-decoration: underline;
 }
