@@ -77,6 +77,14 @@ header .profile-image:hover {
     padding: 0 130px 0 48px;
 }
 
+.middle .search-bar:hover {
+    box-shadow: 0 0 5px 1px rgb(225, 225, 226);
+}
+
+.middle .search-bar:focus {
+    box-shadow: 0 0 5px 1px rgb(225, 225, 226);
+}
+
 .middle .search-icon {
     position: absolute;
     margin: 13px 17px;
