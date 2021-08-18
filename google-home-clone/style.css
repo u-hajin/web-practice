@@ -69,11 +69,12 @@ header .profile-image:hover {
 }
 
 .middle .search-bar {
-    width: 575px;
-    height: 43px;
-    border-radius: 20px;
+    width: 530px;
+    height: 44px;
+    border-radius: 30px;
     border: 1px solid rgb(225, 225, 226);
-   
+    outline: none;
+    padding: 0 0 0 48px;
 }
 
 .middle .search-icon {
