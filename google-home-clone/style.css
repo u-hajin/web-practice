@@ -111,6 +111,18 @@ header .profile-image:hover {
     color: rgb(66,133,244);
 }
 
+.middle .clear-btn {
+    visibility: hidden;
+    border: 0;
+    padding-right: 17px;
+    border-right: 1px solid rgb(123,123,123);
+    background-color: transparent;
+    position: absolute;
+    margin: 12px 450px;
+    font-size: 20px;
+    color: rgb(123,123,123);
+}
+
 .additional-box {
     max-width: 400px;
     margin: 33px auto; /* search-bar, additional-box 사이 간격 33px */
