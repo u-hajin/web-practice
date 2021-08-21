@@ -74,12 +74,12 @@ header .profile-image:hover {
 }
 
 .middle .search-bar {
-    width: 400px;
+    width: 390px;
     height: 44px;
     border-radius: 30px;
     border: 1px solid rgb(225, 225, 226);
     outline: none;
-    padding: 0 130px 0 48px;
+    padding: 0 140px 0 48px;
 }
 
 .middle .search-bar:hover {
