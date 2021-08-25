@@ -59,3 +59,10 @@ Body, Links 객체를 생성하고 활용해 코드를 정리했습니다.
 
 ### Practice of JS_34 - 2021.08.11
 colors.js 파일을 생성해 모든 페이지에 js 코드를 적용했습니다.
+
+### Practice of JS_35 - 2021.08.24
+JavaScript의 라이브러리 jQuery를 배웠습니다.
+반복문을 없애고 jQuery를 사용해 코드를 수정했습니다.
+
+- 완료 -
+
