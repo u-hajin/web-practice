@@ -202,8 +202,25 @@ footer .instruction a:hover {
     footer .left-side {
         left: 190px;
     }
-
+    
     footer .right-side {
         right: 135px;
+    }
+}
+
+@media(max-width:640px) {
+    footer {
+        height: 130px; /* 아래 footer 높이 증가 */
+        grid-template-rows: 1fr 2fr; /* 1:2로 설정, instruction의 li가 겹쳐지니까 */
+    }
+
+    footer .left-side {
+        position: static; /* absolute면 right-side랑 안 겹쳐짐. flex-wrap을 적용하려고 */
+        margin: auto; /* 640px보다 작아지면 알아서 가운데에 위치하도록 */
+    }
+
+    footer .right-side {
+        position: static; /* absolute면 아래로 안 겹쳐짐. flex-wrap을 적용하려고 */
+        margin: 10px auto auto; /* left-side 아래 간격주고 나머지 margin은 auto로 알아서 가운데에 위치하도록 */
     }
 }
