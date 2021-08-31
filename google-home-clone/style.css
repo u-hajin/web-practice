@@ -127,8 +127,8 @@ header .profile-image:hover {
 .middle .clear-btn {
     visibility: hidden;
     border: 0;
-    padding-right: 17px;
     border-right: 1px solid rgb(123,123,123);
+    padding-right: 17px;
     background-color: transparent;
     position: absolute;
     margin: 12px 450px;
