@@ -49,8 +49,9 @@ header button {
 
 header .google-app {
     font-size: 17px;
-    color: rgb(95,99,104);
+    color: rgb(95,99,104); /* 아이콘의 색 */
     padding: 10px 11px; /* hover에서 뒷배경 사이즈, 가로 세로 비율 맞추려고 10, 11 */
+    border-radius: 50%; /* hover에서 뒷배경 원 설정 */
 }
 
 header .profile-image {
@@ -62,12 +63,10 @@ header .profile-image {
 
 header .google-app:hover {
     background-color: rgb(240,240,240);
-    border-radius: 50%;
 }
 
 header .profile-image:hover {
     background-color: rgb(240,240,240);
-    border-radius: 50%;
 }
 
 .middle .logo-image {
