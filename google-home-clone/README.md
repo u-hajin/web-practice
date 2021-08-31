@@ -16,6 +16,6 @@
 
 - Arranging 4 elements into a line.
 - Placing top right corner.
-- profile image circle crop
+- Profile image circle crop
 - Underline appear when pointing Gmail and 이미지 (a tag).
 - Gray circle appear in the background when pointing google app icon and profile image.
