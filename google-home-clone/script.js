@@ -31,11 +31,11 @@ var Logo = {
 }
 
 var Header = {
-    setButtonFontColor: function (color) {
+    setToggleFontColor: function (color) {
         document.querySelector(".dark-light-btn").style.color = color;
     },
 
-    setButtonBackgroundColor: function (color) {
+    setToggleBackgroundColor: function (color) {
         document.querySelector(".dark-light-btn").style.backgroundColor = color;
     },
 
@@ -47,7 +47,7 @@ var Header = {
         }
     },
 
-    setBtnColor: function (color) {
+    setGoogleAppColor: function (color) {
         document.querySelector(".google-app").style.color = color;
     }
 }
@@ -92,10 +92,10 @@ function darkLightHandler(self) { // 사진, 글자색 교체
     if(self.value === "dark") {
         Body.setBackgroundColor("rgb(50,54,57)");
         Logo.setImage(self.value);
-        Header.setButtonFontColor("white");
-        Header.setButtonBackgroundColor("rgb(62, 67, 71)");
+        Header.setToggleFontColor("white");
+        Header.setToggleBackgroundColor("rgb(62, 67, 71)");
         Header.setLinkColor("white");
-        Header.setBtnColor("white");
+        Header.setGoogleAppColor("white");
         AdditionalBox.setBoxBackgroundColor("rgb(62, 67, 71)");
         AdditionalBox.setBoxFontColor("white");
         Footer.setBackgroundColor("rgb(62, 67, 71)");
@@ -105,10 +105,10 @@ function darkLightHandler(self) { // 사진, 글자색 교체
     } else if(self.value === "light") {
         Body.setBackgroundColor("white");
         Logo.setImage(self.value);
-        Header.setButtonFontColor("black");
-        Header.setButtonBackgroundColor("rgb(248,249,250)");
+        Header.setToggleFontColor("black");
+        Header.setToggleBackgroundColor("rgb(248,249,250)");
         Header.setLinkColor("black");
-        Header.setBtnColor("rgb(95,99,104)");
+        Header.setGoogleAppColor("rgb(95,99,104)");
         AdditionalBox.setBoxBackgroundColor("rgb(248,249,250)");
         AdditionalBox.setBoxFontColor("black");
         Footer.setBackgroundColor("rgb(242,242,242)");
