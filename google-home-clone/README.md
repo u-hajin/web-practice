@@ -29,3 +29,7 @@
 - Clear icon appear when the text exist in search bar.
 - Text in search bar deleted when click the clear icon.
 - Border appear on boxes(bottom of search bar) when hover state.
+
+## URL
+
+https://usuyn.github.io/web-practice/google-home-clone/index.html
