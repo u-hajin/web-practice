@@ -1,2 +1,2 @@
 # web-practice
-study html, css, js
+study html, css, javascript
