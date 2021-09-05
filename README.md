@@ -10,7 +10,7 @@ Study html, css, javascript
 ## HTML (2021.07.11 - 2021.07.17)
 
 README - https://github.com/usuyn/web-practice/tree/master/html-pracitce#readme  
-velog  - https://velog.io/@redrawn/HTML-HTML의-시작-태그  
+velog  - https://velog.io/@redrawn/WEB-HTML-정리
 
 ## CSS (2021.07.20 - 2021.07.27)
 
