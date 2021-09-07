@@ -30,7 +30,10 @@
 - Text in search bar deleted when click the clear icon.
 - Border appear on boxes(bottom of search bar) when hover state.
 
-### Dark, Light switch
+## Dark, Light switch
+
+- Placing toggle top left corner.
+- Can change mode when click the toggle.
 
 
 ## URL
