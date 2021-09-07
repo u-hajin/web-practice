@@ -30,6 +30,9 @@
 - Text in search bar deleted when click the clear icon.
 - Border appear on boxes(bottom of search bar) when hover state.
 
+### Dark, Light switch
+
+
 ## URL
 
 https://usuyn.github.io/web-practice/google-home-clone/index.html
