@@ -16,16 +16,19 @@ clearBtn.addEventListener("click", function() {
 
 var Body = {
     setBackgroundColor: function (color) {
-        document.querySelector('body').style.backgroundColor = color;
+        // document.querySelector('body').style.backgroundColor = color;
+        $("body").css("backgroundColor", color);
     }
 }
 
 var Logo = {
     setImage: function (mode) {
         if(mode === "dark") {
-            document.querySelector(".logo-image").src = "images/logo-white.png";
+            // document.querySelector(".logo-image").src = "images/logo-white.png";
+            $(".logo-image").attr("src", "images/logo-white.png");
         } else {
-            document.querySelector(".logo-image").src = "images/logo.png";
+            // document.querySelector(".logo-image").src = "images/logo.png";
+            $(".logo-image").attr("src", "images/logo.png")
         }
     }
 }
