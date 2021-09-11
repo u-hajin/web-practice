@@ -61,19 +61,21 @@ var Header = {
 
 var AdditionalBox = {
     setBoxBackgroundColor: function (color) {
-        var links = document.querySelectorAll(".additional-box a");
+        // var links = document.querySelectorAll(".additional-box a");
 
-        for(i = 0; i < links.length; i++) {
-            links[i].style.backgroundColor = color;
-        }
+        // for(i = 0; i < links.length; i++) {
+        //     links[i].style.backgroundColor = color;
+        // }
+        $(".additional-box a").css("backgroundColor", color);
     },
 
     setBoxFontColor: function (color) {
-        var links = document.querySelectorAll(".additional-box a");
+        // var links = document.querySelectorAll(".additional-box a");
 
-        for(i = 0; i < links.length; i++) {
-            links[i].style.color = color;
-        }
+        // for(i = 0; i < links.length; i++) {
+        //     links[i].style.color = color;
+        // }
+        $(".additional-box a").css("color", color);
     }
 }
 
