@@ -35,13 +35,11 @@ var Logo = {
 
 var Header = {
     setToggleFontColor: function (color) {
-        // document.querySelector(".dark-light-btn").style.color = color;
-        $(".dark-light-btn").css("color", color);
+        document.querySelector(".dark-light-btn").style.color = color;
     },
 
     setToggleBackgroundColor: function (color) {
-        // document.querySelector(".dark-light-btn").style.backgroundColor = color;
-        $(".dark-light-btn").css("backgroundColor", color);
+        document.querySelector(".dark-light-btn").style.backgroundColor = color;
     },
 
     setLinkColor: function (color) {
@@ -53,8 +51,7 @@ var Header = {
     },
 
     setGoogleAppColor: function (color) {
-        // document.querySelector(".google-app").style.color = color;
-        $(".google-app").css("color", color);
+        document.querySelector(".google-app").style.color = color;
     }
 }
 
