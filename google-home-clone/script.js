@@ -35,23 +35,27 @@ var Logo = {
 
 var Header = {
     setToggleFontColor: function (color) {
-        document.querySelector(".dark-light-btn").style.color = color;
+        // document.querySelector(".dark-light-btn").style.color = color;
+        $(".dark-light-btn").css("color", color);
     },
 
     setToggleBackgroundColor: function (color) {
-        document.querySelector(".dark-light-btn").style.backgroundColor = color;
+        // document.querySelector(".dark-light-btn").style.backgroundColor = color;
+        $(".dark-light-btn").css("backgroundColor", color);
     },
 
     setLinkColor: function (color) {
-        var links = document.querySelectorAll("header a");
+        // var links = document.querySelectorAll("header a");
 
-        for(i = 0; i < links.length; i++) {
-            links[i].style.color = color;
-        }
+        // for(i = 0; i < links.length; i++) {
+        //     links[i].style.color = color;
+        // }
+        $("header a").css("color", color);
     },
 
     setGoogleAppColor: function (color) {
-        document.querySelector(".google-app").style.color = color;
+        // document.querySelector(".google-app").style.color = color;
+        $(".google-app").css("color", color);
     }
 }
 
