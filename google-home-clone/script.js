@@ -81,19 +81,22 @@ var AdditionalBox = {
 
 var Footer = {
     setBackgroundColor: function (color) {
-        document.querySelector("footer").style.backgroundColor = color;
+        // document.querySelector("footer").style.backgroundColor = color;
+        $("footer").css("backgroundColor", color);
     },
 
     setCountryInfoColor: function (color) {
-        document.querySelector(".country-info").style.color = color;
+        // document.querySelector(".country-info").style.color = color;
+        $(".country-info").css("color", color);
     },
 
     setInstructionColor: function (color) {
-        var links = document.querySelectorAll(".instruction a");
+        // var links = document.querySelectorAll(".instruction a");
 
-        for(i = 0; i < links.length; i++) {
-            links[i].style.color = color;
-        }
+        // for(i = 0; i < links.length; i++) {
+        //     links[i].style.color = color;
+        // }
+        $(".instruction a").css("color", color);
     }
 }
 
