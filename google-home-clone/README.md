@@ -35,7 +35,12 @@
 - Placing toggle top left corner.
 - Can change mode when click the toggle.
 
-
 ## URL
 
 https://usuyn.github.io/web-practice/google-home-clone/index.html
+
+## velog
+
+Can check the implementation process at the link below.
+
+https://velog.io/@redrawn/google-home-clone
