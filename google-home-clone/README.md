@@ -30,14 +30,37 @@
 - Text in search bar deleted when click the clear icon.
 - Border appear on boxes(bottom of search bar) when hover state.
 
-## Dark, Light switch
+### Dark, Light switch
 
 - Placing toggle top left corner.
 - Can change mode when click the toggle.
 
+## Result
+
+### Light mode
+
+<img src="https://user-images.githubusercontent.com/68963707/133803504-f38af4bb-d7a8-41ea-a88d-1d04e9c2126a.jpeg" width="700" height="auto">
+
+### Dark mode
+
+<img src="https://user-images.githubusercontent.com/68963707/133803680-90f9f3de-1917-4d30-9e5a-f703d31edccc.jpeg" width="700" height="auto">
+
+### header
+
+![image](https://user-images.githubusercontent.com/68963707/133804230-23673beb-85f5-43f9-b5cb-e2a27bb0beb6.png)
+
+![image](https://user-images.githubusercontent.com/68963707/133804302-a9065d19-bd73-42e3-8196-f713795a62e7.png)
+
+### middle
+
+![image](https://user-images.githubusercontent.com/68963707/133803872-552bc840-0f1c-4c77-b5f0-38a52988b8a2.png)
+
+![image](https://user-images.githubusercontent.com/68963707/133804082-30b88e7b-1c91-4d46-8db4-2d24255ee887.png)
+
 ## URL
 
 https://usuyn.github.io/web-practice/google-home-clone/index.html
+
 
 ## velog
 
