@@ -21,3 +21,8 @@ velog  - https://velog.io/@redrawn/WEB-CSS-정리
 
 README - https://github.com/usuyn/web-practice/tree/master/js-practice#readme  
 velog  - https://velog.io/@redrawn/WEB-JavaScript-정리
+
+## Google Homepage Clone Coding (2021.08.12 - 2021.09.01)
+
+README - https://github.com/usuyn/web-practice/tree/master/google-home-clone#readme
+velog - https://velog.io/@redrawn/google-home-clone
