@@ -25,4 +25,10 @@ velog  - https://velog.io/@redrawn/WEB-JavaScript-정리
 ## Google Homepage Clone Coding (2021.08.12 - 2021.09.01)
 
 README - https://github.com/usuyn/web-practice/tree/master/google-home-clone#readme  
-velog - https://velog.io/@redrawn/google-home-clone
+velog - https://velog.io/@redrawn/google-home-clone  
+URL - https://usuyn.github.io/web-practice/google-home-clone/index.html
+
+## Season Music (2020.08.12 - 2020.08.25)
+
+README - https://github.com/usuyn/web-practice/tree/master/season-music#readme  
+URL - https://usuyn.github.io/web-practice/season-music/index.html
