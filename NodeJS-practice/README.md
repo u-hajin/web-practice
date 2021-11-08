@@ -23,3 +23,14 @@
 
 ### Practice of NodeJS_4 - 2021.11.07
 - Node.js로 만든 웹 애플리케이션을 위해 필요한 것들을 배웠습니다.
+
+***
+
+### Practice of NodeJS_5 - 2021.11.08
+- Node.js로 웹서버를 구동시켰습니다.
+- readFileSync, response.end의 역할을 간략하게 배웠습니다.
+- console.log(__dirname + url)로 디렉토리 경로와 사용자가 접근할 때 전달된 파일을 cmd 창에 출력했습니다.
+
+![image](https://user-images.githubusercontent.com/68963707/140765716-2dd12f42-13fe-4527-a0e6-9fdfbb9497eb.png)
+
+![image](https://user-images.githubusercontent.com/68963707/140765922-5feb9ac0-b7d7-4bbb-9446-9efc0c15d45d.png)
