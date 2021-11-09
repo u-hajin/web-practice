@@ -34,3 +34,13 @@
 ![image](https://user-images.githubusercontent.com/68963707/140765716-2dd12f42-13fe-4527-a0e6-9fdfbb9497eb.png)
 
 ![image](https://user-images.githubusercontent.com/68963707/140765922-5feb9ac0-b7d7-4bbb-9446-9efc0c15d45d.png)
+
+***
+
+### Practice of NodeJS_8 - 2021.11.09
+- Template Literals에 대해 배웠습니다.
+- backtick( ` )을 사용했습니다.
+- 기존의 복잡한 방법 대신 ${ }를 사용해 문자열 보간을 수행했습니다.
+
+![image](https://user-images.githubusercontent.com/68963707/140967928-79b56aa3-e578-4b59-bfb0-6bd83c595a55.png)
+
