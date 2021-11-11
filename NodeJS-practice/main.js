@@ -4,7 +4,10 @@ let url = require('url');
 
 let app = http.createServer(function(request,response){
   let _url = request.url;
-  console.log(_url);
+  let queryData = url.parse(_url, true).query;
+  //console.log(_url);
+  //console.log(queryData);
+  //console.log(queryData.id);
   if(_url == '/'){
     _url = '/index.html';
   }
@@ -14,7 +17,8 @@ let app = http.createServer(function(request,response){
     return;
   }
   response.writeHead(200);
-  //console.log(__dirname + url);
-  response.end(fs.readFileSync(__dirname + _url));
+  //console.log(__dirname + _url);
+  //response.end(fs.readFileSync(__dirname + _url));
+  response.end(queryData.id);
 });
 app.listen(3000);
