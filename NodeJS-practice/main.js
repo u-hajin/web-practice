@@ -1,7 +1,8 @@
-var http = require('http');
-var fs = require('fs');
-var app = http.createServer(function(request,response){
-  var url = request.url;
+let http = require('http');
+let fs = require('fs');
+let app = http.createServer(function(request,response){
+  let url = request.url;
+  console.log(url);
   if(url == '/'){
     url = '/index.html';
   }
