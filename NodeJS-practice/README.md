@@ -48,3 +48,33 @@
 
 ### Practice of NodeJS_9 - 2021.11.10
 - URL의 구조, 구성 요소에 대해 배웠습니다.
+
+***
+
+### Practice of NodeJS_10 - 2021.11.11
+- Query String에 대해 배웠습니다.
+- require('url')을 통해 url 모듈을 사용했습니다.
+- URL로부터 원하는 값을 추출하기 위해 parse를 사용했습니다.
+- URL을 통해서 입력된 값을 사용했습니다.
+
+```javascript
+console.log(queryData);
+```
+
+![image](https://user-images.githubusercontent.com/68963707/141344065-988c190e-efe3-4445-8835-ab25a13b87fd.png)
+
+```javascript
+console.log(queryData.id);
+```
+
+![image](https://user-images.githubusercontent.com/68963707/141344464-b4707ecf-ffb8-4130-9410-83626d30c45c.png)
+
+```javascript
+response.end(queryData.id);
+```
+
+![image](https://user-images.githubusercontent.com/68963707/141344268-554d53ed-b103-40f9-a2ce-6a96bfcd3c6f.png)
+
+![image](https://user-images.githubusercontent.com/68963707/141344375-0f8647ee-c3c0-41f9-8bc5-74ee054aa2b5.png)
+
+
