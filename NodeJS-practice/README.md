@@ -44,3 +44,8 @@
 
 ![image](https://user-images.githubusercontent.com/68963707/140967928-79b56aa3-e578-4b59-bfb0-6bd83c595a55.png)
 
+***
+
+### Practice of NodeJS_9 - 2021.11.10
+- URL의 구조, 구성 요소에 대해 배웠습니다.
+- URL을 통해서 입력된 값을 사용하는 방법에 대해 배웠습니다.
