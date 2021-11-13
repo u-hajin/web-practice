@@ -77,4 +77,6 @@ response.end(queryData.id);
 
 ![image](https://user-images.githubusercontent.com/68963707/141344375-0f8647ee-c3c0-41f9-8bc5-74ee054aa2b5.png)
 
-
+### Practice of NodeJS_11 - 2021.11.12
+- Query String에 따라서 웹페이지를 동적으로 생성하는 방법을 배웠습니다.
+- 본문을 제외한 제목 부분이 동적으로 바뀌게 했습니다.
