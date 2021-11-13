@@ -10,7 +10,7 @@ let app = http.createServer(function(request,response){
   //console.log(queryData);
   //console.log(queryData.id);
   if(_url == '/'){
-    _url = '/index.html';
+    title = 'Welcome';
   }
   if(_url == '/favicon.ico'){
     response.writeHead(404);
@@ -28,7 +28,7 @@ let app = http.createServer(function(request,response){
     <meta charset="utf-8">
   </head>
   <body>
-    <h1><a href="index.html">WEB</a></h1>
+    <h1><a href="/">WEB</a></h1>
     <ol>
       <li><a href="/?id=HTML">HTML</a></li>
       <li><a href="/?id=CSS">CSS</a></li>
