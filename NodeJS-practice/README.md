@@ -86,3 +86,11 @@ response.end(queryData.id);
 |||||
 |----|----|----|----|
 |![image](https://user-images.githubusercontent.com/68963707/141654530-8bd994a2-a915-4520-afbc-b66a92383553.png)|![image](https://user-images.githubusercontent.com/68963707/141654543-b3f80535-826f-4869-aa9e-d4c5026e274f.png)|![image](https://user-images.githubusercontent.com/68963707/141654553-98df48e7-9663-494d-ab7f-22da6976f2a6.png)|![image](https://user-images.githubusercontent.com/68963707/141654709-5842ed33-ee9f-45f5-a2f5-c46d884abcbe.png)|
+
+***
+
+### Practice of NodeJS_12 - 2021.11.14
+- Node.js에서 readFile을 사용해 파일을 읽는 방법에 대해 배웠습니다.
+- sample.txt 파일의 텍스트를 읽었습니다.
+
+![image](https://user-images.githubusercontent.com/68963707/141803021-06aa0ff6-e3dc-4221-931f-90d821c0d325.png)
