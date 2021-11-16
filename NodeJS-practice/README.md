@@ -94,3 +94,15 @@ response.end(queryData.id);
 - sample.txt 파일의 텍스트를 읽었습니다.
 
 ![image](https://user-images.githubusercontent.com/68963707/141803021-06aa0ff6-e3dc-4221-931f-90d821c0d325.png)
+
+***
+
+### Practice of NodeJS_13 - 2021.11.16
+- data 폴더를 만들고 각각의 본문을 담은 파일을 생성했습니다.
+- Query String에 따라 해당되는 파일을 읽고 본문이 변경되게 했습니다.
+
+|||||
+|----|----|----|----|
+|![image](https://user-images.githubusercontent.com/68963707/142013699-5c60a800-2b14-43bc-9acf-d4674caf633f.png)|![image](https://user-images.githubusercontent.com/68963707/142013832-3c41039d-3d67-42f1-8f1b-579aba053cc5.png)|![image](https://user-images.githubusercontent.com/68963707/142013888-8df10d01-e34e-48d0-a494-813fbec4c821.png)|![image](https://user-images.githubusercontent.com/68963707/142013942-b6bb412b-fabf-4a9f-afcb-b7dc009caa39.png)|
+
+
