@@ -105,4 +105,8 @@ response.end(queryData.id);
 |----|----|----|----|
 |![image](https://user-images.githubusercontent.com/68963707/142013699-5c60a800-2b14-43bc-9acf-d4674caf633f.png)|![image](https://user-images.githubusercontent.com/68963707/142013832-3c41039d-3d67-42f1-8f1b-579aba053cc5.png)|![image](https://user-images.githubusercontent.com/68963707/142013888-8df10d01-e34e-48d0-a494-813fbec4c821.png)|![image](https://user-images.githubusercontent.com/68963707/142013942-b6bb412b-fabf-4a9f-afcb-b7dc009caa39.png)|
 
+***
 
+
+### Practice of NodeJS_18 - 2021.11.17
+- 명령을 실행할 때 input을 주고 input에 따라 다르게 출력하는 방법을 배웠습니다.
