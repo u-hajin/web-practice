@@ -109,4 +109,9 @@ response.end(queryData.id);
 
 
 ### Practice of NodeJS_18 - 2021.11.17
-- 명령을 실행할 때 input을 주고 input에 따라 다르게 출력하는 방법을 배웠습니다.
+- NodeJS_18을 실행할 때 input을 주고, 조건문을 사용해 주어진 input에 따라 다른 값을 출력하는 방법을 배웠습니다.
+
+![image](https://user-images.githubusercontent.com/68963707/142443620-27167967-8950-4d1d-ad38-2999fefdd83f.png)
+
+- '1'이 입력되면 C1 출력, 이외의 값은 C2 출력
+<img src="https://user-images.githubusercontent.com/68963707/142443708-6c9118c2-78f4-40a8-9cfa-a029be92982e.png" width="500" height="auto">
