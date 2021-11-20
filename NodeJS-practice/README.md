@@ -115,3 +115,11 @@ response.end(queryData.id);
 
 - '1'이 입력되면 C1 출력, 이외의 값은 C2 출력
 <img src="https://user-images.githubusercontent.com/68963707/142443708-6c9118c2-78f4-40a8-9cfa-a029be92982e.png" width="500" height="auto">
+
+***
+
+### Practice of NodeJS_19 - 2021.11.20
+- 존재하지 않는 주소로 접속했을 때 오류 메시지를 전송하는 방법을 배웠습니다.
+- 사용자가 존재하지 않는 주소로 접속을 시도하면 Not found를 뜨게 했습니다.
+
+![image](https://user-images.githubusercontent.com/68963707/142730721-1a819d7e-8343-4b02-aa30-d3f1683b3701.png)
