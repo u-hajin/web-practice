@@ -13,6 +13,9 @@ let app = http.createServer(function (request, response) {
 
   //console.log(url.parse(_url, true).pathname);
   if (pathname === '/') {
+    if (title === undefined) {
+      title = 'Welcome';
+    }
     fs.readFile(`data/${title}`, 'utf8', function (err, description) {
       let template = `
       <!doctype html>
