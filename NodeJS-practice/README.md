@@ -123,3 +123,11 @@ response.end(queryData.id);
 - 사용자가 존재하지 않는 주소로 접속을 시도하면 Not found를 뜨게 했습니다.
 
 ![image](https://user-images.githubusercontent.com/68963707/142730721-1a819d7e-8343-4b02-aa30-d3f1683b3701.png)
+
+***
+
+### Practice of NodeJS_19.2 - 2021.11.21
+- 홈페이지 접속 시 title(queryData.id)값이 undefined인 것을 이용해 홈페이지와 다른 페이지들을 구분했습니다.
+- 조건문을 사용해 홈페이지를 구분하고 본문을 읽어오도록 했습니다.
+
+![image](https://user-images.githubusercontent.com/68963707/142767200-986d3f3a-5b80-48d4-9062-95aec8168052.png)
