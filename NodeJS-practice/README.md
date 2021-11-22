@@ -131,3 +131,10 @@ response.end(queryData.id);
 - 조건문을 사용해 홈페이지를 구분하고 본문을 읽어오도록 했습니다.
 
 ![image](https://user-images.githubusercontent.com/68963707/142767200-986d3f3a-5b80-48d4-9062-95aec8168052.png)
+
+***
+
+### Practice of NodeJS_23 - 2021.11.22
+- 특정 디렉토리에 존재하는 파일의 목록을 알아내는 방법을 배웠습니다.
+
+![image](https://user-images.githubusercontent.com/68963707/142883533-192805db-6775-4c7b-90a8-f015d80c9798.png)
