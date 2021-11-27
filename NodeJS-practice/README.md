@@ -143,3 +143,9 @@ response.end(queryData.id);
 
 ### Practice of NodeJS_24 - 2021.11.22
 - data 디렉토리의 파일 목록을 가져와 li 태그에 자동으로 추가되도록 했습니다.
+
+***
+
+### Practice of NodeJS_26 - 2021.11.27
+- 함수를 사용해 코드를 리팩토링했습니다.
+- 함수를 사용해 html 태그와 파일 목록인 list를 반환하게 해 가독성을 높였습니다.
