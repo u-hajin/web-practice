@@ -149,3 +149,8 @@ response.end(queryData.id);
 ### Practice of NodeJS_26 - 2021.11.27
 - 함수를 사용해 코드를 리팩토링했습니다.
 - 함수를 사용해 html 태그와 파일 목록인 list를 반환하게 해 가독성을 높였습니다.
+
+***
+
+### Practice of NodeJS_28.1 - 2021.12.04
+- 동기와 비동기의 개념과 차이점에 대해 배웠습니다.
