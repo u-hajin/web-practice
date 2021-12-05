@@ -154,3 +154,23 @@ response.end(queryData.id);
 
 ### Practice of NodeJS_28.1 - 2021.12.04
 - 동기와 비동기의 개념과 차이점에 대해 배웠습니다.
+
+***
+
+### Practice of NodeJS_28.2 - 2021.12.05
+- readFileSync와 readFile을 사용해 node.js의 동기적, 비동기적 처리 작동 방식에 대해 배웠습니다.
+
+```javascript
+fs.readFileSync('28_2.txt', 'utf-8');
+```
+
+![image](https://user-images.githubusercontent.com/68963707/144751349-ab809ca3-a193-481f-b70f-c512fb0521f6.png)
+
+
+```javascript
+fs.readFile('28_2.txt', 'utf-8', function(err, result){
+  console.log(result);
+});
+```
+
+![image](https://user-images.githubusercontent.com/68963707/144751283-7e7fb349-8aa5-478a-b7f5-49d6a0872ebe.png)
