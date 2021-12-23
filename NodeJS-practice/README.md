@@ -174,3 +174,9 @@ fs.readFile('28_2.txt', 'utf-8', function(err, result){
 ```
 
 ![image](https://user-images.githubusercontent.com/68963707/144751283-7e7fb349-8aa5-478a-b7f5-49d6a0872ebe.png)
+
+***
+
+### Practice of NodeJS_28.3 - 2021.12.23
+- callback에 대해 배웠습니다.
+- slowfunc 함수를 호출하면서 전달한 함수를 실행하게 했습니다.
