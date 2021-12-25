@@ -180,3 +180,14 @@ fs.readFile('28_2.txt', 'utf-8', function(err, result){
 ### Practice of NodeJS_28.3 - 2021.12.23
 - callback에 대해 배웠습니다.
 - slowfunc 함수를 호출하면서 전달한 함수를 실행하게 했습니다.
+
+***
+
+### Practice of NodeJS_29 - 2021.12.25
+- 패키지 매니저인 NPM에 대해 배웠습니다.
+- 프로세스 매니저인 PM2를 설치하고 사용했습니다.
+- watch 옵션을 사용해 새로고침으로 코드 변경이 바로 반영되도록 했습니다.
+
+<img src="https://user-images.githubusercontent.com/68963707/147386571-210bced0-2318-4be7-b87f-ed07e3761ab0.png" width="600" height="auto">
+
+<img src="https://user-images.githubusercontent.com/68963707/147386540-98ac00da-61b3-4acc-be86-8e6ad04e50b2.png" width="600" height="auto">
