@@ -191,3 +191,25 @@ fs.readFile('28_2.txt', 'utf-8', function(err, result){
 <img src="https://user-images.githubusercontent.com/68963707/147386571-210bced0-2318-4be7-b87f-ed07e3761ab0.png" width="600" height="auto">
 
 <img src="https://user-images.githubusercontent.com/68963707/147386540-98ac00da-61b3-4acc-be86-8e6ad04e50b2.png" width="600" height="auto">
+
+***
+
+### Practice of NodeJS_30 - 2021.12.27
+- 사용자가 콘텐츠를 생성, 수정, 삭제할 수 있도록 하는 기초 지식을 배웠습니다.
+- 웹 브라우저에서 서버로 데이터를 전송할 때 사용하는 form 태그를 배웠습니다.
+- 제목과 본문을 사용자가 입력하고 submit 하도록 하는 방법을 배웠습니다.
+- 데이터 노출, 길이 제한 문제로 get이 아닌 post 방식을 사용했습니다.
+
+![image](https://user-images.githubusercontent.com/68963707/147420224-0f030650-7359-4845-b18e-c202a3ebbaeb.png)
+
+```html
+<form action="http://localhost:3000/process_create" method="get">
+```
+
+![image](https://user-images.githubusercontent.com/68963707/147420241-1996034c-f751-4415-b68c-c8460c583ba9.png)
+
+```html
+<form action="http://localhost:3000/process_create" method="post">
+```
+
+![image](https://user-images.githubusercontent.com/68963707/147420248-a321493a-cae9-4fb3-a1ce-fbf620fb29a9.png)
