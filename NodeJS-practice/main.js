@@ -13,6 +13,7 @@ function templateHTML(title, list, body) {
   <body>
     <h1><a href="/">WEB</a></h1>
     ${list}
+    <a href="/create">create</a>
     ${body}
   </body>
   </html>
@@ -21,12 +22,12 @@ function templateHTML(title, list, body) {
 
 function templateList(filelist) {
   let list = '<ul>';
-    for (let i = 0; i < filelist.length; i++) {
-      if (filelist[i] === 'Welcome') {
-        continue;
-      }
-      list += `<li><a href="/?id=${filelist[i]}">${filelist[i]}</a></li>`
+  for (let i = 0; i < filelist.length; i++) {
+    if (filelist[i] === 'Welcome') {
+      continue;
     }
+    list += `<li><a href="/?id=${filelist[i]}">${filelist[i]}</a></li>`
+  }
   list += '</ul>'
   return list;
 }
@@ -52,7 +53,25 @@ let app = http.createServer(function (request, response) {
         response.writeHead(200);
         response.end(template);
       });
-    })
+    });
+  } else if (pathname === '/create') {
+    fs.readdir('./data', function (error, filelist) {
+      title = 'WEB - create';
+      let list = templateList(filelist);
+      let template = templateHTML(title, list, `
+        <form action="http://localhost:3000/process_create" method="post">
+          <p><input type="text" name="title" placeholder="title"></p>
+          <p>
+            <textarea name="description" placeholder="description"></textarea>
+          </p>
+          <p>
+            <input type="submit">
+          </p>
+        </form>
+      `);
+      response.writeHead(200);
+      response.end(template);
+    });
   } else {
     response.writeHead(404);
     response.end('Not found');
