@@ -213,3 +213,10 @@ fs.readFile('28_2.txt', 'utf-8', function(err, result){
 ```
 
 ![image](https://user-images.githubusercontent.com/68963707/147420248-a321493a-cae9-4fb3-a1ce-fbf620fb29a9.png)
+
+***
+
+### Practice of NodeJS_31 - 2021.12.27
+- 사용자가 콘텐츠를 생성할 수 있게 하는 UI를 구현했습니다.
+
+![image](https://user-images.githubusercontent.com/68963707/147485870-688c66fd-a3f1-4860-8370-be91c90902c7.png)
