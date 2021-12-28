@@ -220,3 +220,12 @@ fs.readFile('28_2.txt', 'utf-8', function(err, result){
 - 사용자가 콘텐츠를 생성할 수 있게 하는 UI를 구현했습니다.
 
 ![image](https://user-images.githubusercontent.com/68963707/147485870-688c66fd-a3f1-4860-8370-be91c90902c7.png)
+
+***
+
+### Practice of NodeJS_32 - 2021.12.28
+- POST 방식으로 전송된 데이터를 추출하는 방법을 배웠습니다.
+
+![image](https://user-images.githubusercontent.com/68963707/147606151-244826a3-5ada-4482-824b-f30e93864d2e.png)
+
+![image](https://user-images.githubusercontent.com/68963707/147606131-2dae1af3-67aa-44e6-9285-64a3a40cbebd.png)
