@@ -10,12 +10,12 @@ Study html, css, javascript
 ## HTML (2021.07.11 - 2021.07.17)
 
 README - https://github.com/usuyn/web-practice/tree/master/html-pracitce#readme  
-velog  - https://velog.io/@redrawn/WEB-HTML-정리
+Tistory  - https://select-dev-from.tistory.com/12
 
 ## CSS (2021.07.20 - 2021.07.27)
 
 README - https://github.com/usuyn/web-practice/tree/master/css-practice#readme  
-velog  - https://velog.io/@redrawn/WEB-CSS-정리
+Tistory  - https://select-dev-from.tistory.com/13
 
 ## JavaScript (2021.07.31 - 2021.08.24)
 
